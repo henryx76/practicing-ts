@@ -25,5 +25,5 @@ class user {
 exports.user = user;
 const user1 = new user('user 1', 'user1@email.com');
 console.log(user1.getName());
-user1.changeName('ne');
+user1.changeName('new Name');
 console.log(user1.getName());
