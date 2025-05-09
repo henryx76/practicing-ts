@@ -20,6 +20,8 @@ export class user {
         if (newName.length < 3) {
             throw new Error('invalid name')
         }
+
+        this.name = newName
     }
     public getName(): string {
         return this.name
@@ -53,7 +55,9 @@ class manager {
     public getName(): string {
         return this.name
     }
-
+    public getNumber(): number {
+        return 123
+    }
 }
 class Manager extends user {
     public getName(): string{
