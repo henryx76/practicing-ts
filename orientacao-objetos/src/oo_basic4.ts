@@ -1,4 +1,7 @@
 class Address{
+    isCepValid(arg0: string): any {
+        throw new Error("Method not implemented.")
+    }
     constructor(
     public address: string,
     public readonly zipCode: string,

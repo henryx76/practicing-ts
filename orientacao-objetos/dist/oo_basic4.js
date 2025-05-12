@@ -1,5 +1,8 @@
 "use strict";
 class Address {
+    isCepValid(arg0) {
+        throw new Error("Method not implemented.");
+    }
     constructor(address, zipCode, number) {
         this.address = address;
         this.zipCode = zipCode;
