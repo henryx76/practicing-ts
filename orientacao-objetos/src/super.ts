@@ -33,7 +33,7 @@ class manager {
     name: string
     email: string
     active: boolean = false
-    address: Address [] = []
+
 
 
     constructor(name: string, email: string, active: boolean = false) {
@@ -41,10 +41,6 @@ class manager {
         this.name = name
         this.email = email
         this.active = active
-    }
-
-    public addAddress(newAddress: Address): void{
-        this.address.push(newAddress)
     
     }
     public changeName(newName: string): void {
@@ -60,9 +56,10 @@ class manager {
     }
 }
 class Manager extends user {
-    public getName(): string{
-        return 'manager; ${this.name}'
-    }
+   constructor(name: string, email: string, active: boolean, code: string) {
+    console.log(code)
+    super(name, email, active)
+   }
 }
 class Admin extends user {
       public getName(): string{
@@ -70,5 +67,5 @@ class Admin extends user {
       }
 }
 
-const manager1 = new manager('manager1', 'manager@gmail.com', true)
-console.log(manager1)                                                                            
+const manager1 = new manager('manager1', 'manager@gmail.com', true,)
+console.log(manager1.getNumber())                                                                            
