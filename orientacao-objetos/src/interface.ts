@@ -2,9 +2,9 @@ interface location = {
     latitude: number;
     longitude: number;
 }
+
 const getLocation = (location: location): string => {
-    return '${location.latitude}- ${location.longitude}'
-    
+    return '${location.latitude}- ${location.longitude}' 
 }
 
 //const location = {
