@@ -2,7 +2,7 @@
 
 Minha jornada no typescript, nesses dois cursos eu aprendi a codar em typescript e aprendi algumas funcionalidades novas e a orientar objetos, eu acheium pouco mais simples pois ja tinha visto bastante coisa em javascript. Foi bastante divertido
 
-## 🛠️ Funcionalidades
+##  Funcionalidades
 
 -  Tipagem estática para variáveis, funções e objetos, com verificação em tempo de desenvolvimento.
 -  Inferência de tipos automáticos com base nos valores definidos.
